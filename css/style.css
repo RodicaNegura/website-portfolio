@@ -115,6 +115,10 @@ nav {
   box-shadow: var(--bs);
 }
 
+.section__subtitle--intro {
+  display: inline-block;
+}
+
 
 @media (min-width: 600px) {
   .intro {
@@ -161,9 +165,21 @@ nav {
 .section__title--services::after {
   content: '';
   display: block;
-  width: 3em;
+  width: 2em;
   height: 1px;
   margin: 0.5em auto 1em;
   background: var(--clr-light);
   opacity: 0.25;
+}
+
+@media (min-width: 800px) {
+  .services {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .service + .service {
+    margin-left: 2em;
+  }
 }
