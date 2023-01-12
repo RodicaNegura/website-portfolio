@@ -280,7 +280,7 @@ nav {
   overflow: hidden;
 }
 
-.portfolio__img{
+.portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
               opacity 250ms linear;
     
@@ -298,6 +298,7 @@ nav {
   color: var(--clr-accent);
   text-align: center;
   padding: 2.5em 0;
+  font-size: var(--fs-h3);
 }
 
 .footer a { 
